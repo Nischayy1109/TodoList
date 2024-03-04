@@ -38,7 +38,7 @@ function App() {
             todos = JSON.parse(storedData);
         } catch (error) {
             console.error("Error parsing JSON:", error);
-        }
+        }    
     }
     if (todos && todos.length > 0) {
       setTodos(todos)
